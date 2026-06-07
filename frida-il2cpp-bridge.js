@@ -1,3 +1,4 @@
+// patched by ChatGPT: frida-il2cpp-bridge (3) direct-obfuscated export style regenerated with supplied symbols
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -147,251 +148,6 @@ var Il2Cpp;
         unityVersion: undefined,
         exports: undefined
     };
-    // AnimalCompany obfuscated IL2CPP exports fallback: BEGIN
-    Il2Cpp.$config.exports = {
-    	il2cpp_init: () => Il2Cpp.module.findExportByName("QjcvmvHsGxF"),
-    	il2cpp_init_utf16: () => Il2Cpp.module.findExportByName("DPfiKhuQJzy"),
-    	il2cpp_shutdown: () => Il2Cpp.module.findExportByName("ZCADPNMTaeH"),
-    	il2cpp_set_config_dir: () => Il2Cpp.module.findExportByName("FMocIUSgqug"),
-    	il2cpp_set_data_dir: () => Il2Cpp.module.findExportByName("FQuDFxRSDQE"),
-    	il2cpp_set_temp_dir: () => Il2Cpp.module.findExportByName("GICLvorxIrn"),
-    	il2cpp_set_commandline_arguments: () => Il2Cpp.module.findExportByName("IMXoRvaGtMC"),
-    	il2cpp_set_commandline_arguments_utf16: () => Il2Cpp.module.findExportByName("Ztvj_bopnFA"),
-    	il2cpp_set_config_utf16: () => Il2Cpp.module.findExportByName("gYFsO_AKzLm"),
-    	il2cpp_set_config: () => Il2Cpp.module.findExportByName("huRCdAtLPbZ"),
-    	il2cpp_set_memory_callbacks: () => Il2Cpp.module.findExportByName("ofUnsZRzsoX"),
-    	il2cpp_memory_pool_set_region_size: () => Il2Cpp.module.findExportByName("DxRnMJPIrkv"),
-    	il2cpp_memory_pool_get_region_size: () => Il2Cpp.module.findExportByName("CERCVhPdbeh"),
-    	il2cpp_get_corlib: () => Il2Cpp.module.findExportByName("yKyDiHhRYOV"),
-    	il2cpp_add_internal_call: () => Il2Cpp.module.findExportByName("lDxfgP_HEyW"),
-    	il2cpp_resolve_icall: () => Il2Cpp.module.findExportByName("RQnOoebQopC"),
-    	il2cpp_alloc: () => Il2Cpp.module.findExportByName("CLGwYZnIfkB"),
-    	il2cpp_free: () => Il2Cpp.module.findExportByName("HBPgQuzCkyr"),
-    	il2cpp_array_class_get: () => Il2Cpp.module.findExportByName("wPdLlPNPBzA"),
-    	il2cpp_array_length: () => Il2Cpp.module.findExportByName("dZGpHEm_bIk"),
-    	il2cpp_array_get_byte_length: () => Il2Cpp.module.findExportByName("qXepbpWNIEV"),
-    	il2cpp_array_new: () => Il2Cpp.module.findExportByName("VmPMugFPYwP"),
-    	il2cpp_array_new_specific: () => Il2Cpp.module.findExportByName("LEccyUnNRnF"),
-    	il2cpp_array_new_full: () => Il2Cpp.module.findExportByName("QELIXgsCnvr"),
-    	il2cpp_bounded_array_class_get: () => Il2Cpp.module.findExportByName("noqIfELrbih"),
-    	il2cpp_array_element_size: () => Il2Cpp.module.findExportByName("feEznKtHIcY"),
-    	il2cpp_assembly_get_image: () => Il2Cpp.module.findExportByName("RwbChAqpDjK"),
-    	il2cpp_class_enum_basetype: () => Il2Cpp.module.findExportByName("GHNdlnjKNQa"),
-    	il2cpp_class_from_system_type: () => Il2Cpp.module.findExportByName("VbYqSUvNWIF"),
-    	il2cpp_class_is_inited: () => Il2Cpp.module.findExportByName("XJOTszmZOOd"),
-    	il2cpp_class_is_generic: () => Il2Cpp.module.findExportByName("VTeXRzzgEPW"),
-    	il2cpp_class_is_inflated: () => Il2Cpp.module.findExportByName("wbFywCOuEkE"),
-    	il2cpp_class_is_assignable_from: () => Il2Cpp.module.findExportByName("m_QKqcUJfwo"),
-    	il2cpp_class_is_subclass_of: () => Il2Cpp.module.findExportByName("mUPjffGTPLJ"),
-    	il2cpp_class_has_parent: () => Il2Cpp.module.findExportByName("ZEVG_cFCRJI"),
-    	il2cpp_class_from_il2cpp_type: () => Il2Cpp.module.findExportByName("GlDjWfiukst"),
-    	il2cpp_class_from_name: () => Il2Cpp.module.findExportByName("vbKHdrjVTAW"),
-    	il2cpp_class_get_element_class: () => Il2Cpp.module.findExportByName("YOKiolOFXTb"),
-    	il2cpp_class_get_events: () => Il2Cpp.module.findExportByName("cMNidatDhdL"),
-    	il2cpp_class_get_fields: () => Il2Cpp.module.findExportByName("yxqemHNQXne"),
-    	il2cpp_class_get_nested_types: () => Il2Cpp.module.findExportByName("ZahwotYkhkJ"),
-    	il2cpp_class_get_interfaces: () => Il2Cpp.module.findExportByName("CRnSxEKuiHT"),
-    	il2cpp_class_get_properties: () => Il2Cpp.module.findExportByName("wBdoEfZwpY_"),
-    	il2cpp_class_get_property_from_name: () => Il2Cpp.module.findExportByName("ByQiEpwWsBz"),
-    	il2cpp_class_get_field_from_name: () => Il2Cpp.module.findExportByName("crmv_WgvkVp"),
-    	il2cpp_class_get_methods: () => Il2Cpp.module.findExportByName("gTZcBqiElUn"),
-    	il2cpp_class_get_method_from_name: () => Il2Cpp.module.findExportByName("LfKkHaVvbQG"),
-    	il2cpp_class_get_name: () => Il2Cpp.module.findExportByName("QLGALQjrZsy"),
-    	il2cpp_class_get_namespace: () => Il2Cpp.module.findExportByName("EdgANMnSPSZ"),
-    	il2cpp_class_get_parent: () => Il2Cpp.module.findExportByName("uyDnKZEvucO"),
-    	il2cpp_class_get_declaring_type: () => Il2Cpp.module.findExportByName("rRSrISvVuLh"),
-    	il2cpp_class_instance_size: () => Il2Cpp.module.findExportByName("vBK_iHUunQk"),
-    	il2cpp_class_num_fields: () => Il2Cpp.module.findExportByName("hYtVWJdndqz"),
-    	il2cpp_class_is_valuetype: () => Il2Cpp.module.findExportByName("XgrIEIgQoWP"),
-    	il2cpp_class_is_blittable: () => Il2Cpp.module.findExportByName("AlROGFAtXBi"),
-    	il2cpp_class_value_size: () => Il2Cpp.module.findExportByName("SjbfYCHuGHW"),
-    	il2cpp_class_get_flags: () => Il2Cpp.module.findExportByName("gvevWQpMJNE"),
-    	il2cpp_class_is_abstract: () => Il2Cpp.module.findExportByName("GTixkfrJpFs"),
-    	il2cpp_class_is_interface: () => Il2Cpp.module.findExportByName("mAWQrtpzjbe"),
-    	il2cpp_class_array_element_size: () => Il2Cpp.module.findExportByName("gCHg_NQxmLz"),
-    	il2cpp_class_from_type: () => Il2Cpp.module.findExportByName("xxviHdaux_n"),
-    	il2cpp_class_get_type: () => Il2Cpp.module.findExportByName("wJoCJzHdJQr"),
-    	il2cpp_class_get_type_token: () => Il2Cpp.module.findExportByName("MsLudnuwSry"),
-    	il2cpp_class_has_attribute: () => Il2Cpp.module.findExportByName("FsSGvYRCawr"),
-    	il2cpp_class_has_references: () => Il2Cpp.module.findExportByName("xEbvlSbnBgS"),
-    	il2cpp_class_is_enum: () => Il2Cpp.module.findExportByName("XxWNFnPmSNy"),
-    	il2cpp_class_get_image: () => Il2Cpp.module.findExportByName("XTFBvFKNGLK"),
-    	il2cpp_class_get_assemblyname: () => Il2Cpp.module.findExportByName("VNWPrvxRLQa"),
-    	il2cpp_class_get_rank: () => Il2Cpp.module.findExportByName("MGtAqAVfCQy"),
-    	il2cpp_class_get_data_size: () => Il2Cpp.module.findExportByName("VIBQFTJZURS"),
-    	il2cpp_class_get_static_field_data: () => Il2Cpp.module.findExportByName("CExHWoaOs_A"),
-    	il2cpp_stats_dump_to_file: () => Il2Cpp.module.findExportByName("Htlc_LSeqAs"),
-    	il2cpp_stats_get_value: () => Il2Cpp.module.findExportByName("jsKVbUmnYKW"),
-    	il2cpp_domain_get: () => Il2Cpp.module.findExportByName("yiEKFiZYOAC"),
-    	il2cpp_domain_assembly_open: () => Il2Cpp.module.findExportByName("QrCFGSlyxBs"),
-    	il2cpp_domain_get_assemblies: () => Il2Cpp.module.findExportByName("Onx_alZUiJe"),
-    	il2cpp_raise_exception: () => Il2Cpp.module.findExportByName("rzHSxZhAIIF"),
-    	il2cpp_exception_from_name_msg: () => Il2Cpp.module.findExportByName("rxYYyRQ_ORU"),
-    	il2cpp_get_exception_argument_null: () => Il2Cpp.module.findExportByName("bnXUTZxprcr"),
-    	il2cpp_format_exception: () => Il2Cpp.module.findExportByName("gDAlJbggN_J"),
-    	il2cpp_format_stack_trace: () => Il2Cpp.module.findExportByName("cuBdzSrHzfL"),
-    	il2cpp_unhandled_exception: () => Il2Cpp.module.findExportByName("oJLPiLqfS_v"),
-    	il2cpp_native_stack_trace: () => Il2Cpp.module.findExportByName("lFRmEkepIfe"),
-    	il2cpp_field_get_name: () => Il2Cpp.module.findExportByName("gtrAEuxmQPF"),
-    	il2cpp_field_get_flags: () => Il2Cpp.module.findExportByName("TusvDbIjnCd"),
-    	il2cpp_field_get_from_reflection: () => Il2Cpp.module.findExportByName("xjFwYhBzXlp"),
-    	il2cpp_field_get_parent: () => Il2Cpp.module.findExportByName("dvUBmpJZcIi"),
-    	il2cpp_field_get_object: () => Il2Cpp.module.findExportByName("RCGylDUEgBS"),
-    	il2cpp_field_get_offset: () => Il2Cpp.module.findExportByName("YEWgkWuWJZf"),
-    	il2cpp_field_get_type: () => Il2Cpp.module.findExportByName("CRmeElgSFJX"),
-    	il2cpp_field_get_value: () => Il2Cpp.module.findExportByName("EWZDFu_SoSQ"),
-    	il2cpp_field_get_value_object: () => Il2Cpp.module.findExportByName("IoXYYxgvefJ"),
-    	il2cpp_field_has_attribute: () => Il2Cpp.module.findExportByName("uQFxeflWIDh"),
-    	il2cpp_field_set_value: () => Il2Cpp.module.findExportByName("GfhTTEiIOXk"),
-    	il2cpp_field_set_value_object: () => Il2Cpp.module.findExportByName("QahDsmEgKBA"),
-    	il2cpp_field_static_get_value: () => Il2Cpp.module.findExportByName("PnPDmqLDnuc"),
-    	il2cpp_field_static_set_value: () => Il2Cpp.module.findExportByName("ALBvkXGZeVn"),
-    	il2cpp_field_is_literal: () => Il2Cpp.module.findExportByName("XRCfegLANGy"),
-    	il2cpp_gc_collect: () => Il2Cpp.module.findExportByName("EpqohPOVYuZ"),
-    	il2cpp_gc_collect_a_little: () => Il2Cpp.module.findExportByName("VuIoyTQbuuY"),
-    	il2cpp_gc_start_incremental_collection: () => Il2Cpp.module.findExportByName("DidlcNuL_Za"),
-    	il2cpp_gc_enable: () => Il2Cpp.module.findExportByName("dMZLDlRETCI"),
-    	il2cpp_gc_disable: () => Il2Cpp.module.findExportByName("WmHNJAbPlRh"),
-    	il2cpp_gc_is_disabled: () => Il2Cpp.module.findExportByName("zJLNgaohTVP"),
-    	il2cpp_gc_set_mode: () => Il2Cpp.module.findExportByName("wTmblgdSADZ"),
-    	il2cpp_gc_is_incremental: () => Il2Cpp.module.findExportByName("HZxlOUwAobU"),
-    	il2cpp_gc_get_max_time_slice_ns: () => Il2Cpp.module.findExportByName("FSyKvABjgsq"),
-    	il2cpp_gc_set_max_time_slice_ns: () => Il2Cpp.module.findExportByName("LEJzPyRKPZE"),
-    	il2cpp_gc_get_used_size: () => Il2Cpp.module.findExportByName("yrsciOphXTA"),
-    	il2cpp_gc_get_heap_size: () => Il2Cpp.module.findExportByName("YQPwrUYtJOF"),
-    	il2cpp_gc_foreach_heap: () => Il2Cpp.module.findExportByName("VjKWimhS_Pg"),
-    	il2cpp_stop_gc_world: () => Il2Cpp.module.findExportByName("prnbYHWSAkU"),
-    	il2cpp_start_gc_world: () => Il2Cpp.module.findExportByName("KLD_GsbzJzm"),
-    	il2cpp_gc_alloc_fixed: () => Il2Cpp.module.findExportByName("qTySMknipCR"),
-    	il2cpp_gc_free_fixed: () => Il2Cpp.module.findExportByName("YyhkCejx_Ls"),
-    	il2cpp_gchandle_new: () => Il2Cpp.module.findExportByName("kMdUosbaMfE"),
-    	il2cpp_gchandle_new_weakref: () => Il2Cpp.module.findExportByName("qeWqooYfkEC"),
-    	il2cpp_gchandle_get_target: () => Il2Cpp.module.findExportByName("OkQOnbvWIng"),
-    	il2cpp_gchandle_foreach_get_target: () => Il2Cpp.module.findExportByName("urNBhAHAdOa"),
-    	il2cpp_gc_wbarrier_set_field: () => Il2Cpp.module.findExportByName("U_fUEnkkSNl"),
-    	il2cpp_gc_has_strict_wbarriers: () => Il2Cpp.module.findExportByName("tIHLvpuT_rh"),
-    	il2cpp_gc_set_external_allocation_tracker: () => Il2Cpp.module.findExportByName("kIZTs_obUYj"),
-    	il2cpp_gc_set_external_wbarrier_tracker: () => Il2Cpp.module.findExportByName("_HxRJidfxWX"),
-    	il2cpp_gchandle_free: () => Il2Cpp.module.findExportByName("rE_gVshQGGp"),
-    	il2cpp_object_header_size: () => Il2Cpp.module.findExportByName("SLsolBwjINj"),
-    	il2cpp_array_object_header_size: () => Il2Cpp.module.findExportByName("wYCEdkgUbvY"),
-    	il2cpp_offset_of_array_length_in_array_object_header: () => Il2Cpp.module.findExportByName("YfrVLNFQyVH"),
-    	il2cpp_offset_of_array_bounds_in_array_object_header: () => Il2Cpp.module.findExportByName("vUUtQwaGVXQ"),
-    	il2cpp_allocation_granularity: () => Il2Cpp.module.findExportByName("_BdnGdRVdMS"),
-    	il2cpp_unity_liveness_allocate_struct: () => Il2Cpp.module.findExportByName("gxNACqNldcA"),
-    	il2cpp_unity_liveness_calculation_from_root: () => Il2Cpp.module.findExportByName("qWhUiQzQdvI"),
-    	il2cpp_unity_liveness_calculation_from_statics: () => Il2Cpp.module.findExportByName("LIgMrKdQGuc"),
-    	il2cpp_unity_liveness_finalize: () => Il2Cpp.module.findExportByName("TpGwunWveBK"),
-    	il2cpp_unity_liveness_free_struct: () => Il2Cpp.module.findExportByName("LvCstfHty_k"),
-    	il2cpp_method_get_return_type: () => Il2Cpp.module.findExportByName("WSafiCaFBOM"),
-    	il2cpp_method_get_from_reflection: () => Il2Cpp.module.findExportByName("sdDKXOMhVy_"),
-    	il2cpp_method_get_object: () => Il2Cpp.module.findExportByName("uaXwjHQEWYp"),
-    	il2cpp_method_get_name: () => Il2Cpp.module.findExportByName("PCRPNCoOyOj"),
-    	il2cpp_method_is_generic: () => Il2Cpp.module.findExportByName("eWpCCJczdNG"),
-    	il2cpp_method_is_inflated: () => Il2Cpp.module.findExportByName("YlKnpSqerj_"),
-    	il2cpp_method_is_instance: () => Il2Cpp.module.findExportByName("DtowYcefllo"),
-    	il2cpp_method_get_param_count: () => Il2Cpp.module.findExportByName("EmVhIBbMggI"),
-    	il2cpp_method_get_param: () => Il2Cpp.module.findExportByName("AqffcvNcwXG"),
-    	il2cpp_method_get_class: () => Il2Cpp.module.findExportByName("VMtURkrvsKr"),
-    	il2cpp_method_has_attribute: () => Il2Cpp.module.findExportByName("AijVjhVwSpi"),
-    	il2cpp_method_get_declaring_type: () => Il2Cpp.module.findExportByName("PNAigTiRExV"),
-    	il2cpp_method_get_flags: () => Il2Cpp.module.findExportByName("UxaNzfoTPMb"),
-    	il2cpp_method_get_token: () => Il2Cpp.module.findExportByName("vXHzWj_syCZ"),
-    	il2cpp_method_get_param_name: () => Il2Cpp.module.findExportByName("qnDiQFYNFfy"),
-    	il2cpp_profiler_install: () => Il2Cpp.module.findExportByName("sraMhOXrglJ"),
-    	il2cpp_profiler_set_events: () => Il2Cpp.module.findExportByName("GFCcOhwSmkt"),
-    	il2cpp_profiler_install_enter_leave: () => Il2Cpp.module.findExportByName("WhvxGBYZJRf"),
-    	il2cpp_profiler_install_allocation: () => Il2Cpp.module.findExportByName("cpIzKBVYIFN"),
-    	il2cpp_profiler_install_gc: () => Il2Cpp.module.findExportByName("_rpevcN_tAv"),
-    	il2cpp_profiler_install_fileio: () => Il2Cpp.module.findExportByName("hBCgmfDCNnx"),
-    	il2cpp_profiler_install_thread: () => Il2Cpp.module.findExportByName("IFdSxJEFeUM"),
-    	il2cpp_property_get_name: () => Il2Cpp.module.findExportByName("OzGwgLX_vlX"),
-    	il2cpp_property_get_get_method: () => Il2Cpp.module.findExportByName("hOMCNyCyBMT"),
-    	il2cpp_property_get_set_method: () => Il2Cpp.module.findExportByName("RPaogQCglhT"),
-    	il2cpp_property_get_parent: () => Il2Cpp.module.findExportByName("dhmGcfNRlgQ"),
-    	il2cpp_property_get_flags: () => Il2Cpp.module.findExportByName("ZqwbVpkGhxO"),
-    	il2cpp_object_get_class: () => Il2Cpp.module.findExportByName("SHWMCMAwWWC"),
-    	il2cpp_object_get_size: () => Il2Cpp.module.findExportByName("cRbiTELIKAm"),
-    	il2cpp_object_get_virtual_method: () => Il2Cpp.module.findExportByName("lyNJ_cPlZKE"),
-    	il2cpp_object_new: () => Il2Cpp.module.findExportByName("rdJJvqIVYjw"),
-    	il2cpp_object_unbox: () => Il2Cpp.module.findExportByName("tGXNGSEFzuV"),
-    	il2cpp_value_box: () => Il2Cpp.module.findExportByName("dztGiHUTrDN"),
-    	il2cpp_monitor_enter: () => Il2Cpp.module.findExportByName("psZvzpLLqIR"),
-    	il2cpp_monitor_try_enter: () => Il2Cpp.module.findExportByName("enxbzEDN_KZ"),
-    	il2cpp_monitor_exit: () => Il2Cpp.module.findExportByName("IjloolZhfLe"),
-    	il2cpp_monitor_pulse: () => Il2Cpp.module.findExportByName("LOHKtiRoBxO"),
-    	il2cpp_monitor_pulse_all: () => Il2Cpp.module.findExportByName("tkwpJ_Mprei"),
-    	il2cpp_monitor_wait: () => Il2Cpp.module.findExportByName("vfhufoJinmS"),
-    	il2cpp_monitor_try_wait: () => Il2Cpp.module.findExportByName("tYJiNjRjfTg"),
-    	il2cpp_runtime_invoke_convert_args: () => Il2Cpp.module.findExportByName("RdOEFiNickP"),
-    	il2cpp_runtime_invoke: () => Il2Cpp.module.findExportByName("dDyZG_nyzkH"),
-    	il2cpp_runtime_class_init: () => Il2Cpp.module.findExportByName("LhXTnpYBFiB"),
-    	il2cpp_runtime_object_init: () => Il2Cpp.module.findExportByName("FdKoe_XXAls"),
-    	il2cpp_runtime_object_init_exception: () => Il2Cpp.module.findExportByName("CRYbhRoAOUs"),
-    	il2cpp_runtime_unhandled_exception_policy_set: () => Il2Cpp.module.findExportByName("yZCyrw_O_XH"),
-    	il2cpp_string_length: () => Il2Cpp.module.findExportByName("RhsVZL_WOQN"),
-    	il2cpp_string_chars: () => Il2Cpp.module.findExportByName("HIVBKfVMepQ"),
-    	il2cpp_string_new: () => Il2Cpp.module.findExportByName("BkwaxhBgdhS"),
-    	il2cpp_string_new_wrapper: () => Il2Cpp.module.findExportByName("bMNVhWPKBSc"),
-    	il2cpp_string_new_utf16: () => Il2Cpp.module.findExportByName("_OyqfQi_iGP"),
-    	il2cpp_string_new_len: () => Il2Cpp.module.findExportByName("APJrpVLIQ_x"),
-    	il2cpp_string_intern: () => Il2Cpp.module.findExportByName("FgaDzcfqIZc"),
-    	il2cpp_string_is_interned: () => Il2Cpp.module.findExportByName("DUYUnZcGMmV"),
-    	il2cpp_thread_current: () => Il2Cpp.module.findExportByName("oaoQkdUNDEd"),
-    	il2cpp_thread_attach: () => Il2Cpp.module.findExportByName("thcewaHYGVp"),
-    	il2cpp_thread_detach: () => Il2Cpp.module.findExportByName("mYlAXgcIEKT"),
-    	il2cpp_is_vm_thread: () => Il2Cpp.module.findExportByName("uPrkCpwcnRZ"),
-    	il2cpp_current_thread_walk_frame_stack: () => Il2Cpp.module.findExportByName("cfEAayNuBLh"),
-    	il2cpp_thread_walk_frame_stack: () => Il2Cpp.module.findExportByName("uVpaAPgHKYl"),
-    	il2cpp_current_thread_get_top_frame: () => Il2Cpp.module.findExportByName("TNrukw_TMwe"),
-    	il2cpp_thread_get_top_frame: () => Il2Cpp.module.findExportByName("oGTHkpMsToG"),
-    	il2cpp_current_thread_get_frame_at: () => Il2Cpp.module.findExportByName("QOjYgHIIQpZ"),
-    	il2cpp_thread_get_frame_at: () => Il2Cpp.module.findExportByName("cTogXvkSbTS"),
-    	il2cpp_current_thread_get_stack_depth: () => Il2Cpp.module.findExportByName("hcmmblEjOxs"),
-    	il2cpp_thread_get_stack_depth: () => Il2Cpp.module.findExportByName("EroVVobRlTS"),
-    	il2cpp_set_default_thread_affinity: () => Il2Cpp.module.findExportByName("mgLjbrTrkbd"),
-    	il2cpp_override_stack_backtrace: () => Il2Cpp.module.findExportByName("NuZgJIkXwfA"),
-    	il2cpp_type_get_object: () => Il2Cpp.module.findExportByName("BBqCgkkQEdz"),
-    	il2cpp_type_get_type: () => Il2Cpp.module.findExportByName("RHteWfNAPoX"),
-    	il2cpp_type_get_class_or_element_class: () => Il2Cpp.module.findExportByName("l_qqPYBTtcy"),
-    	il2cpp_type_get_name: () => Il2Cpp.module.findExportByName("HRllsXFcZxQ"),
-    	il2cpp_type_get_assembly_qualified_name: () => Il2Cpp.module.findExportByName("aAReZFoWFiW"),
-    	il2cpp_type_get_reflection_name: () => Il2Cpp.module.findExportByName("ciDmyKCYCfY"),
-    	il2cpp_type_is_byref: () => Il2Cpp.module.findExportByName("qxRCEqfRbCo"),
-    	il2cpp_type_get_attrs: () => Il2Cpp.module.findExportByName("pMwXAyGtTxV"),
-    	il2cpp_type_equals: () => Il2Cpp.module.findExportByName("hekEeLtUXHf"),
-    	il2cpp_type_is_static: () => Il2Cpp.module.findExportByName("BoQQzVNQURK"),
-    	il2cpp_type_is_pointer_type: () => Il2Cpp.module.findExportByName("Cauc_djCqmb"),
-    	il2cpp_image_get_assembly: () => Il2Cpp.module.findExportByName("bUyOjKFQDjJ"),
-    	il2cpp_image_get_name: () => Il2Cpp.module.findExportByName("ravqkcXHZdX"),
-    	il2cpp_image_get_filename: () => Il2Cpp.module.findExportByName("zSlNggUJKeP"),
-    	il2cpp_image_get_entry_point: () => Il2Cpp.module.findExportByName("IHHeAGDvPmz"),
-    	il2cpp_image_get_class_count: () => Il2Cpp.module.findExportByName("hAlaeQeFOCD"),
-    	il2cpp_image_get_class: () => Il2Cpp.module.findExportByName("IQZtGdtlfNR"),
-    	il2cpp_capture_memory_snapshot: () => Il2Cpp.module.findExportByName("VcVNXfxDKNv"),
-    	il2cpp_free_captured_memory_snapshot: () => Il2Cpp.module.findExportByName("QtRVttfdlGy"),
-    	il2cpp_set_find_plugin_callback: () => Il2Cpp.module.findExportByName("pzJzhtVJWQn"),
-    	il2cpp_register_log_callback: () => Il2Cpp.module.findExportByName("mgWXEvfiwSq"),
-    	il2cpp_debugger_set_agent_options: () => Il2Cpp.module.findExportByName("HrgzReCoxXo"),
-    	il2cpp_is_debugger_attached: () => Il2Cpp.module.findExportByName("iIBhfHyFJib"),
-    	il2cpp_register_debugger_agent_transport: () => Il2Cpp.module.findExportByName("Zw_hfPtObKD"),
-    	il2cpp_debug_foreach_method: () => Il2Cpp.module.findExportByName("LzHqpay_vlk"),
-    	il2cpp_debug_get_method_info: () => Il2Cpp.module.findExportByName("uiNaMnIHjjZ"),
-    	il2cpp_unity_install_unitytls_interface: () => Il2Cpp.module.findExportByName("EFDiMWGhNjk"),
-    	il2cpp_custom_attrs_from_class: () => Il2Cpp.module.findExportByName("LEghhqMTzzv"),
-    	il2cpp_custom_attrs_from_method: () => Il2Cpp.module.findExportByName("kQjlQPAcnkw"),
-    	il2cpp_custom_attrs_from_field: () => Il2Cpp.module.findExportByName("QuoSGvMmhJI"),
-    	il2cpp_custom_attrs_has_attr: () => Il2Cpp.module.findExportByName("klDnsHhXxyr"),
-    	il2cpp_custom_attrs_get_attr: () => Il2Cpp.module.findExportByName("PekxfEbVelg"),
-    	il2cpp_custom_attrs_construct: () => Il2Cpp.module.findExportByName("ZglhB_jRUbH"),
-    	il2cpp_custom_attrs_free: () => Il2Cpp.module.findExportByName("RSVdQYyYycI"),
-    	il2cpp_type_get_name_chunked: () => Il2Cpp.module.findExportByName("EJPQEoGkYCe"),
-    	il2cpp_class_set_userdata: () => Il2Cpp.module.findExportByName("GFUFwbPIgUI"),
-    	il2cpp_class_get_userdata_offset: () => Il2Cpp.module.findExportByName("spZqtLtnkSa"),
-    	il2cpp_class_for_each: () => Il2Cpp.module.findExportByName("RHkUGzPFkmm"),
-    	il2cpp_unity_set_android_network_up_state_func: () => Il2Cpp.module.findExportByName("dhLeoQEtpVr"),
-    };
-    // AnimalCompany obfuscated IL2CPP exports fallback: END
 })(Il2Cpp || (Il2Cpp = {}));
 var Il2Cpp;
 (function (Il2Cpp) {
@@ -554,7 +310,7 @@ var Il2Cpp;
      * However, it is possible to override or set the handle of any of the
      * exports using {@link Il2Cpp.$config.exports}:
      * ```ts
-     * Il2Cpp.$config.exports = {
+     * // Il2Cpp.$config.exports = {
      *     il2cpp_image_get_class: () => Il2Cpp.module.base.add(0x1204c),
      *     il2cpp_class_get_parent: () => {
      *         return Memory.scanSync(Il2Cpp.module.base, Il2Cpp.module.size, "2f 10 ee 10 34 a8")[0].address;
@@ -568,226 +324,226 @@ var Il2Cpp;
      */
     Il2Cpp.exports = {
         get alloc() {
-            return r("il2cpp_alloc", "pointer", ["size_t"]);
+            return r("nbgkwNMFMWS", "pointer", ["size_t"]);
         },
         get arrayGetLength() {
-            return r("il2cpp_array_length", "uint32", ["pointer"]);
+            return r("zkLVaBozXmK", "uint32", ["pointer"]);
         },
         get arrayNew() {
-            return r("il2cpp_array_new", "pointer", ["pointer", "uint32"]);
+            return r("uyODkVCPbB_", "pointer", ["pointer", "uint32"]);
         },
         get assemblyGetImage() {
-            return r("il2cpp_assembly_get_image", "pointer", ["pointer"]);
+            return r("jSgUUtKmzjJ", "pointer", ["pointer"]);
         },
         get classForEach() {
-            return r("il2cpp_class_for_each", "void", ["pointer", "pointer"]);
+            return r("qTaypczsgNu", "void", ["pointer", "pointer"]);
         },
         get classFromName() {
-            return r("il2cpp_class_from_name", "pointer", ["pointer", "pointer", "pointer"]);
+            return r("FyvyMhNLRDJ", "pointer", ["pointer", "pointer", "pointer"]);
         },
         get classFromObject() {
-            return r("il2cpp_class_from_system_type", "pointer", ["pointer"]);
+            return r("nAMbSbUGKXf", "pointer", ["pointer"]);
         },
         get classGetArrayClass() {
-            return r("il2cpp_array_class_get", "pointer", ["pointer", "uint32"]);
+            return r("uGAKdfVXUYF", "pointer", ["pointer", "uint32"]);
         },
         get classGetArrayElementSize() {
-            return r("il2cpp_class_array_element_size", "int", ["pointer"]);
+            return r("imPLRdorAxR", "int", ["pointer"]);
         },
         get classGetAssemblyName() {
-            return r("il2cpp_class_get_assemblyname", "pointer", ["pointer"]);
+            return r("CkeihoBVqsA", "pointer", ["pointer"]);
         },
         get classGetBaseType() {
-            return r("il2cpp_class_enum_basetype", "pointer", ["pointer"]);
+            return r("xCrKFJVatRx", "pointer", ["pointer"]);
         },
         get classGetDeclaringType() {
-            return r("il2cpp_class_get_declaring_type", "pointer", ["pointer"]);
+            return r("blRcfaOEkdA", "pointer", ["pointer"]);
         },
         get classGetElementClass() {
-            return r("il2cpp_class_get_element_class", "pointer", ["pointer"]);
+            return r("bXWTIbdsnKM", "pointer", ["pointer"]);
         },
         get classGetFieldFromName() {
-            return r("il2cpp_class_get_field_from_name", "pointer", ["pointer", "pointer"]);
+            return r("JxphAhsacRP", "pointer", ["pointer", "pointer"]);
         },
         get classGetFields() {
-            return r("il2cpp_class_get_fields", "pointer", ["pointer", "pointer"]);
+            return r("ZiMTlEgMOse", "pointer", ["pointer", "pointer"]);
         },
         get classGetFlags() {
-            return r("il2cpp_class_get_flags", "int", ["pointer"]);
+            return r("nZLTJNkZFfG", "int", ["pointer"]);
         },
         get classGetImage() {
-            return r("il2cpp_class_get_image", "pointer", ["pointer"]);
+            return r("ULpdDBUoYyf", "pointer", ["pointer"]);
         },
         get classGetInstanceSize() {
-            return r("il2cpp_class_instance_size", "int32", ["pointer"]);
+            return r("vGzmvsgxiLa", "int32", ["pointer"]);
         },
         get classGetInterfaces() {
-            return r("il2cpp_class_get_interfaces", "pointer", ["pointer", "pointer"]);
+            return r("bSipThwVkzk", "pointer", ["pointer", "pointer"]);
         },
         get classGetMethodFromName() {
-            return r("il2cpp_class_get_method_from_name", "pointer", ["pointer", "pointer", "int"]);
+            return r("KehkDYpuqtm", "pointer", ["pointer", "pointer", "int"]);
         },
         get classGetMethods() {
-            return r("il2cpp_class_get_methods", "pointer", ["pointer", "pointer"]);
+            return r("rkYWCsMMSRJ", "pointer", ["pointer", "pointer"]);
         },
         get classGetName() {
-            return r("il2cpp_class_get_name", "pointer", ["pointer"]);
+            return r("BKyvutYOQWy", "pointer", ["pointer"]);
         },
         get classGetNamespace() {
-            return r("il2cpp_class_get_namespace", "pointer", ["pointer"]);
+            return r("jUIxtjpaEgZ", "pointer", ["pointer"]);
         },
         get classGetNestedClasses() {
-            return r("il2cpp_class_get_nested_types", "pointer", ["pointer", "pointer"]);
+            return r("tqxCIJuCNxS", "pointer", ["pointer", "pointer"]);
         },
         get classGetParent() {
-            return r("il2cpp_class_get_parent", "pointer", ["pointer"]);
+            return r("EpBIFuvgYkH", "pointer", ["pointer"]);
         },
         get classGetStaticFieldData() {
-            return r("il2cpp_class_get_static_field_data", "pointer", ["pointer"]);
+            return r("BTDPpKx_xsF", "pointer", ["pointer"]);
         },
         get classGetValueTypeSize() {
-            return r("il2cpp_class_value_size", "int32", ["pointer", "pointer"]);
+            return r("PELMfsGlYBZ", "int32", ["pointer", "pointer"]);
         },
         get classGetType() {
-            return r("il2cpp_class_get_type", "pointer", ["pointer"]);
+            return r("NzhKMx_zMAJ", "pointer", ["pointer"]);
         },
         get classHasReferences() {
-            return r("il2cpp_class_has_references", "bool", ["pointer"]);
+            return r("EkalqYpjVcc", "bool", ["pointer"]);
         },
         get classInitialize() {
-            return r("il2cpp_runtime_class_init", "void", ["pointer"]);
+            return r("StBVUcvptdh", "void", ["pointer"]);
         },
         get classIsAbstract() {
-            return r("il2cpp_class_is_abstract", "bool", ["pointer"]);
+            return r("niLRakrIsUc", "bool", ["pointer"]);
         },
         get classIsAssignableFrom() {
-            return r("il2cpp_class_is_assignable_from", "bool", ["pointer", "pointer"]);
+            return r("YUSKnDCkyvb", "bool", ["pointer", "pointer"]);
         },
         get classIsBlittable() {
-            return r("il2cpp_class_is_blittable", "bool", ["pointer"]);
+            return r("wsSMQyuNKUT", "bool", ["pointer"]);
         },
         get classIsEnum() {
-            return r("il2cpp_class_is_enum", "bool", ["pointer"]);
+            return r("ZaZWOL_XAAG", "bool", ["pointer"]);
         },
         get classIsGeneric() {
-            return r("il2cpp_class_is_generic", "bool", ["pointer"]);
+            return r("YAnWWaaSyxY", "bool", ["pointer"]);
         },
         get classIsInflated() {
-            return r("il2cpp_class_is_inflated", "bool", ["pointer"]);
+            return r("BsaDwKfCNUz", "bool", ["pointer"]);
         },
         get classIsInterface() {
-            return r("il2cpp_class_is_interface", "bool", ["pointer"]);
+            return r("pHHrkHlFFxT", "bool", ["pointer"]);
         },
         get classIsSubclassOf() {
-            return r("il2cpp_class_is_subclass_of", "bool", ["pointer", "pointer", "bool"]);
+            return r("XzXAfzwGxpu", "bool", ["pointer", "pointer", "bool"]);
         },
         get classIsValueType() {
-            return r("il2cpp_class_is_valuetype", "bool", ["pointer"]);
+            return r("_yg__YmkhDx", "bool", ["pointer"]);
         },
         get domainGetAssemblyFromName() {
-            return r("il2cpp_domain_assembly_open", "pointer", ["pointer", "pointer"]);
+            return r("CDpeHBKPTjI", "pointer", ["pointer", "pointer"]);
         },
         get domainGet() {
-            return r("il2cpp_domain_get", "pointer", []);
+            return r("QXGKPSTsshv", "pointer", []);
         },
         get domainGetAssemblies() {
-            return r("il2cpp_domain_get_assemblies", "pointer", ["pointer", "pointer"]);
+            return r("HvmuUYxcjJQ", "pointer", ["pointer", "pointer"]);
         },
         get fieldGetClass() {
-            return r("il2cpp_field_get_parent", "pointer", ["pointer"]);
+            return r("tTAKxvovSsn", "pointer", ["pointer"]);
         },
         get fieldGetFlags() {
-            return r("il2cpp_field_get_flags", "int", ["pointer"]);
+            return r("sPTtiWyVLvA", "int", ["pointer"]);
         },
         get fieldGetName() {
-            return r("il2cpp_field_get_name", "pointer", ["pointer"]);
+            return r("cFFMPsnQkYN", "pointer", ["pointer"]);
         },
         get fieldGetOffset() {
-            return r("il2cpp_field_get_offset", "int32", ["pointer"]);
+            return r("LHgbcouwEdH", "int32", ["pointer"]);
         },
         get fieldGetStaticValue() {
-            return r("il2cpp_field_static_get_value", "void", ["pointer", "pointer"]);
+            return r("SKmtNUnQodL", "void", ["pointer", "pointer"]);
         },
         get fieldGetType() {
-            return r("il2cpp_field_get_type", "pointer", ["pointer"]);
+            return r("vTjLsZNYsgm", "pointer", ["pointer"]);
         },
         get fieldSetStaticValue() {
-            return r("il2cpp_field_static_set_value", "void", ["pointer", "pointer"]);
+            return r("CDXcwprKcDQ", "void", ["pointer", "pointer"]);
         },
         get free() {
-            return r("il2cpp_free", "void", ["pointer"]);
+            return r("NKdwYSJKuWa", "void", ["pointer"]);
         },
         get gcCollect() {
-            return r("il2cpp_gc_collect", "void", ["int"]);
+            return r("rxMnIkmwwfr", "void", ["int"]);
         },
         get gcCollectALittle() {
-            return r("il2cpp_gc_collect_a_little", "void", []);
+            return r("SwDfg_deZSI", "void", []);
         },
         get gcDisable() {
-            return r("il2cpp_gc_disable", "void", []);
+            return r("wDInLGLkAey", "void", []);
         },
         get gcEnable() {
-            return r("il2cpp_gc_enable", "void", []);
+            return r("l_zrrZmryYB", "void", []);
         },
         get gcGetHeapSize() {
-            return r("il2cpp_gc_get_heap_size", "int64", []);
+            return r("Jh__gmjiyRU", "int64", []);
         },
         get gcGetMaxTimeSlice() {
-            return r("il2cpp_gc_get_max_time_slice_ns", "int64", []);
+            return r("cmIWAzRixkW", "int64", []);
         },
         get gcGetUsedSize() {
-            return r("il2cpp_gc_get_used_size", "int64", []);
+            return r("EUxUI_FEuYV", "int64", []);
         },
         get gcHandleGetTarget() {
-            return r("il2cpp_gchandle_get_target", "pointer", ["uint32"]);
+            return r("nmuHCRJdURA", "pointer", ["uint32"]);
         },
         get gcHandleFree() {
-            return r("il2cpp_gchandle_free", "void", ["uint32"]);
+            return r("vhbSCe_tXHi", "void", ["uint32"]);
         },
         get gcHandleNew() {
-            return r("il2cpp_gchandle_new", "uint32", ["pointer", "bool"]);
+            return r("XWHBgdaTbpZ", "uint32", ["pointer", "bool"]);
         },
         get gcHandleNewWeakRef() {
-            return r("il2cpp_gchandle_new_weakref", "uint32", ["pointer", "bool"]);
+            return r("rLGufLFxvaK", "uint32", ["pointer", "bool"]);
         },
         get gcIsDisabled() {
-            return r("il2cpp_gc_is_disabled", "bool", []);
+            return r("YJSHDwxYChD", "bool", []);
         },
         get gcIsIncremental() {
-            return r("il2cpp_gc_is_incremental", "bool", []);
+            return r("EThwCrxZBrf", "bool", []);
         },
         get gcSetMaxTimeSlice() {
-            return r("il2cpp_gc_set_max_time_slice_ns", "void", ["int64"]);
+            return r("uztINxPKuvv", "void", ["int64"]);
         },
         get gcStartIncrementalCollection() {
-            return r("il2cpp_gc_start_incremental_collection", "void", []);
+            return r("G_fzrBpwCAR", "void", []);
         },
         get gcStartWorld() {
-            return r("il2cpp_start_gc_world", "void", []);
+            return r("bamnjNlEeUN", "void", []);
         },
         get gcStopWorld() {
-            return r("il2cpp_stop_gc_world", "void", []);
+            return r("daGRpZwGJWi", "void", []);
         },
         get getCorlib() {
-            return r("il2cpp_get_corlib", "pointer", []);
+            return r("W_EZfNinobw", "pointer", []);
         },
         get imageGetAssembly() {
-            return r("il2cpp_image_get_assembly", "pointer", ["pointer"]);
+            return r("cqfGzZtAbZi", "pointer", ["pointer"]);
         },
         get imageGetClass() {
-            return r("il2cpp_image_get_class", "pointer", ["pointer", "uint"]);
+            return r("NWWdAoXBDBY", "pointer", ["pointer", "uint"]);
         },
         get imageGetClassCount() {
-            return r("il2cpp_image_get_class_count", "uint32", ["pointer"]);
+            return r("FIGgipFzgMY", "uint32", ["pointer"]);
         },
         get imageGetName() {
-            return r("il2cpp_image_get_name", "pointer", ["pointer"]);
+            return r("FZa_z_AueBS", "pointer", ["pointer"]);
         },
         get initialize() {
-            return r("il2cpp_init", "void", ["pointer"]);
+            return r("ITAtHOcJERU", "void", ["pointer"]);
         },
         get livenessAllocateStruct() {
-            return r("il2cpp_unity_liveness_allocate_struct", "pointer", ["pointer", "int", "pointer", "pointer", "pointer"]);
+            return r("xGozcIPTgvq", "pointer", ["pointer", "int", "pointer", "pointer", "pointer"]);
         },
         get livenessCalculationBegin() {
             return r("il2cpp_unity_liveness_calculation_begin", "pointer", ["pointer", "int", "pointer", "pointer", "pointer", "pointer"]);
@@ -796,19 +552,19 @@ var Il2Cpp;
             return r("il2cpp_unity_liveness_calculation_end", "void", ["pointer"]);
         },
         get livenessCalculationFromStatics() {
-            return r("il2cpp_unity_liveness_calculation_from_statics", "void", ["pointer"]);
+            return r("mVdIOVxZehR", "void", ["pointer"]);
         },
         get livenessFinalize() {
-            return r("il2cpp_unity_liveness_finalize", "void", ["pointer"]);
+            return r("cD_AxP_DLxj", "void", ["pointer"]);
         },
         get livenessFreeStruct() {
-            return r("il2cpp_unity_liveness_free_struct", "void", ["pointer"]);
+            return r("YCaFJbsWOQL", "void", ["pointer"]);
         },
         get memorySnapshotCapture() {
-            return r("il2cpp_capture_memory_snapshot", "pointer", []);
+            return r("IpzYwEzNyAK", "pointer", []);
         },
         get memorySnapshotFree() {
-            return r("il2cpp_free_captured_memory_snapshot", "void", ["pointer"]);
+            return r("lXeeYyqKDhC", "void", ["pointer"]);
         },
         get memorySnapshotGetClasses() {
             return r("il2cpp_memory_snapshot_get_classes", "pointer", ["pointer", "pointer"]);
@@ -817,124 +573,124 @@ var Il2Cpp;
             return r("il2cpp_memory_snapshot_get_objects", "pointer", ["pointer", "pointer"]);
         },
         get methodGetClass() {
-            return r("il2cpp_method_get_class", "pointer", ["pointer"]);
+            return r("uBl_utkxpVH", "pointer", ["pointer"]);
         },
         get methodGetFlags() {
-            return r("il2cpp_method_get_flags", "uint32", ["pointer", "pointer"]);
+            return r("QtneASmrREC", "uint32", ["pointer", "pointer"]);
         },
         get methodGetName() {
-            return r("il2cpp_method_get_name", "pointer", ["pointer"]);
+            return r("ayDZwIpRwyB", "pointer", ["pointer"]);
         },
         get methodGetObject() {
-            return r("il2cpp_method_get_object", "pointer", ["pointer", "pointer"]);
+            return r("QJLdHBQonMo", "pointer", ["pointer", "pointer"]);
         },
         get methodGetParameterCount() {
-            return r("il2cpp_method_get_param_count", "uint8", ["pointer"]);
+            return r("ZBshdAOKZYu", "uint8", ["pointer"]);
         },
         get methodGetParameterName() {
-            return r("il2cpp_method_get_param_name", "pointer", ["pointer", "uint32"]);
+            return r("dFHZqoystRU", "pointer", ["pointer", "uint32"]);
         },
         get methodGetParameters() {
             return r("il2cpp_method_get_parameters", "pointer", ["pointer", "pointer"]);
         },
         get methodGetParameterType() {
-            return r("il2cpp_method_get_param", "pointer", ["pointer", "uint32"]);
+            return r("neTyOIDNdQt", "pointer", ["pointer", "uint32"]);
         },
         get methodGetReturnType() {
-            return r("il2cpp_method_get_return_type", "pointer", ["pointer"]);
+            return r("wNWoU_rKrWK", "pointer", ["pointer"]);
         },
         get methodIsGeneric() {
-            return r("il2cpp_method_is_generic", "bool", ["pointer"]);
+            return r("McrI_RbkHcj", "bool", ["pointer"]);
         },
         get methodIsInflated() {
-            return r("il2cpp_method_is_inflated", "bool", ["pointer"]);
+            return r("PVjShiOvsxt", "bool", ["pointer"]);
         },
         get methodIsInstance() {
-            return r("il2cpp_method_is_instance", "bool", ["pointer"]);
+            return r("uXbnEwTdviU", "bool", ["pointer"]);
         },
         get monitorEnter() {
-            return r("il2cpp_monitor_enter", "void", ["pointer"]);
+            return r("lwoSVwUWIXX", "void", ["pointer"]);
         },
         get monitorExit() {
-            return r("il2cpp_monitor_exit", "void", ["pointer"]);
+            return r("GLGovyiNsre", "void", ["pointer"]);
         },
         get monitorPulse() {
-            return r("il2cpp_monitor_pulse", "void", ["pointer"]);
+            return r("qpvHJVrwjle", "void", ["pointer"]);
         },
         get monitorPulseAll() {
-            return r("il2cpp_monitor_pulse_all", "void", ["pointer"]);
+            return r("fkadyvVPmVs", "void", ["pointer"]);
         },
         get monitorTryEnter() {
-            return r("il2cpp_monitor_try_enter", "bool", ["pointer", "uint32"]);
+            return r("ZZuGJzswWUL", "bool", ["pointer", "uint32"]);
         },
         get monitorTryWait() {
-            return r("il2cpp_monitor_try_wait", "bool", ["pointer", "uint32"]);
+            return r("OikhWlbtzjR", "bool", ["pointer", "uint32"]);
         },
         get monitorWait() {
-            return r("il2cpp_monitor_wait", "void", ["pointer"]);
+            return r("spIC_FwfAON", "void", ["pointer"]);
         },
         get objectGetClass() {
-            return r("il2cpp_object_get_class", "pointer", ["pointer"]);
+            return r("ZjrdMEkmuJA", "pointer", ["pointer"]);
         },
         get objectGetVirtualMethod() {
-            return r("il2cpp_object_get_virtual_method", "pointer", ["pointer", "pointer"]);
+            return r("fmuimZSfNxX", "pointer", ["pointer", "pointer"]);
         },
         get objectInitialize() {
-            return r("il2cpp_runtime_object_init_exception", "void", ["pointer", "pointer"]);
+            return r("DVKCCvtTKOd", "void", ["pointer", "pointer"]);
         },
         get objectNew() {
-            return r("il2cpp_object_new", "pointer", ["pointer"]);
+            return r("ScVayGdXprz", "pointer", ["pointer"]);
         },
         get objectGetSize() {
-            return r("il2cpp_object_get_size", "uint32", ["pointer"]);
+            return r("VwFJVFspdOf", "uint32", ["pointer"]);
         },
         get objectUnbox() {
-            return r("il2cpp_object_unbox", "pointer", ["pointer"]);
+            return r("anLbQchRyPa", "pointer", ["pointer"]);
         },
         get resolveInternalCall() {
-            return r("il2cpp_resolve_icall", "pointer", ["pointer"]);
+            return r("VDohxPcfmOo", "pointer", ["pointer"]);
         },
         get stringGetChars() {
-            return r("il2cpp_string_chars", "pointer", ["pointer"]);
+            return r("_JxuSxXJkxu", "pointer", ["pointer"]);
         },
         get stringGetLength() {
-            return r("il2cpp_string_length", "int32", ["pointer"]);
+            return r("JMiFbyvMzDo", "int32", ["pointer"]);
         },
         get stringNew() {
-            return r("il2cpp_string_new", "pointer", ["pointer"]);
+            return r("OHHYrn_OLCw", "pointer", ["pointer"]);
         },
         get valueTypeBox() {
-            return r("il2cpp_value_box", "pointer", ["pointer", "pointer"]);
+            return r("IrRrDTFMtkv", "pointer", ["pointer", "pointer"]);
         },
         get threadAttach() {
-            return r("il2cpp_thread_attach", "pointer", ["pointer"]);
+            return r("XZkKiKosyHC", "pointer", ["pointer"]);
         },
         get threadDetach() {
-            return r("il2cpp_thread_detach", "void", ["pointer"]);
+            return r("HWyKlOeVHgV", "void", ["pointer"]);
         },
         get threadGetAttachedThreads() {
             return r("il2cpp_thread_get_all_attached_threads", "pointer", ["pointer"]);
         },
         get threadGetCurrent() {
-            return r("il2cpp_thread_current", "pointer", []);
+            return r("brgaqnrsLjx", "pointer", []);
         },
         get threadIsVm() {
-            return r("il2cpp_is_vm_thread", "bool", ["pointer"]);
+            return r("tOniezYQdLe", "bool", ["pointer"]);
         },
         get typeEquals() {
-            return r("il2cpp_type_equals", "bool", ["pointer", "pointer"]);
+            return r("ZQcDKobJMFm", "bool", ["pointer", "pointer"]);
         },
         get typeGetClass() {
-            return r("il2cpp_class_from_type", "pointer", ["pointer"]);
+            return r("DqxnMROBhFx", "pointer", ["pointer"]);
         },
         get typeGetName() {
-            return r("il2cpp_type_get_name", "pointer", ["pointer"]);
+            return r("VNwdSYN_Ac_", "pointer", ["pointer"]);
         },
         get typeGetObject() {
-            return r("il2cpp_type_get_object", "pointer", ["pointer"]);
+            return r("PFwXVWGeckf", "pointer", ["pointer"]);
         },
         get typeGetTypeEnum() {
-            return r("il2cpp_type_get_type", "int", ["pointer"]);
+            return r("jDLSsrBahVH", "int", ["pointer"]);
         }
     };
     decorate(Il2Cpp.exports, lazy);
@@ -3341,11 +3097,7 @@ var Il2Cpp;
         }
         /** */
         toString() {
-            try {
-                return this.isNull() ? "null" : this.method<Il2Cpp.String>("ToString", 0).invoke().content ?? "null";
-            } catch (error) {
-                return "Error: ToString failed";
-            }
+            return this.isNull() ? "null" : this.method("ToString", 0).invoke().content ?? "null";
         }
         /** Unboxes the value type (either a primitive, a struct or an enum) out of this object. */
         unbox() {
@@ -3871,16 +3623,12 @@ var Il2Cpp;
         }
         /** Gets the name of this type. */
         get name() {
-            try {
-                const handle = Il2Cpp.exports.typeGetName(this);
+            const handle = Il2Cpp.exports.typeGetName(this);
             try {
                 return handle.readUtf8String();
             }
             finally {
                 Il2Cpp.free(handle);
-            }
-            } catch {
-                return "Error: ToString failed"
             }
         }
         /** Gets the encompassing object of the current type. */
